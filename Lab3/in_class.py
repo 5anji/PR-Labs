@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import re
 
 prefix = 'https://999.md'
-url = 'https://999.md/ro/list/real-estate/apartments-and-rooms'
+url = 'https://999.md/ru/list/real-estate/apartments-and-rooms'
 
 def parse(local_url):
     response = requests.get(local_url)
